@@ -4,7 +4,9 @@
     --iriscolor: #4D5AE5;
     --navyblue:  #2e2f42;
     --navcolor: black;
-    --ocean: #404BBF;
+    --oceancolor: #404BBF;
+    --whitecolor: white;
+    --slatecolor: #434455;
 
 }
 
@@ -38,6 +40,75 @@
 }
 
 .navbar .pages:hover,
-.navbar .pages:focus{
+.navbar .pages:focus,
+.navbar .pages.currentoption,
+.contact-info .info:hover,
+.contact-info .info:focus {
+    color: var(--oceancolor);
+}
 
+.contact-info .info{
+    color: var(--navyblue);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.bg-section1{
+    background-color: var(--navyblue)
+}
+
+.h1-title{
+    color: var(--whitecolor);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.btn{
+    cursor: pointer;
+    border-color: transparent;
+    letter-spacing: 0.05em;
+    font-family: inherit;
+}
+
+.btn.primary{
+    background-color: var(--oceancolor);
+    color: var(--whitecolor);
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.btn.primary:hover,
+.btn.primary:focus{
+    background-color: red;
+}
+
+.desclist.titlelist{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--slatecolor);
+}
+    
+.sectiontitle{
+    text-align: center;
+    color: var(--navyblue);
+    font-size: 36px;
+    font-weight:900;
+    line-height: 1.5;
+}
+
+.teamname{
+    color: var(--navyblue);
+    font-weight: 900;
+}
+
+.position{
+    color:var(--navyblue);
 }
