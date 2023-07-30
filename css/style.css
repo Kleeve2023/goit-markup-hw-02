@@ -7,6 +7,8 @@
     --oceancolor: #404BBF;
     --whitecolor: white;
     --slatecolor: #434455;
+    --btn-filter: #f5f4fa;
+    --primary-text-color: #757575;
 
 }
 
@@ -93,6 +95,21 @@
     background-color: red;
 }
 
+.btn.filter{
+    background-color: var(--btn-filter);
+    color: var(--slatecolor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.btn.filter:hover,
+.btn.filter:focus,
+.btn.filter.current{
+    background-color: var(--oceancolor);
+    color: var(--btn-filter);
+}
+
 .desclist.titlelist{
     font-weight: 800;
     font-size: 14px;
@@ -131,4 +148,23 @@
     width: 265px;
     height: 70px;
     top: 3300px;
+}
+
+.project{
+    text-decoration: none;
+}
+
+.project .name{
+color: var(--navcolor);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.project .type{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
