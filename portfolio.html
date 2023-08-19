@@ -1,180 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="./css/style.css" />
-</head>
-<body>
+  </head>
+  <body>
     <header class="page-header">
-        <nav>
-        <a href="./index.html"class="logo-link">
-            <span class="logo">WEB</span>
-            <span class="studio">STUDIO</span>
+      <nav>
+        <a href="./index.html" class="logo-link">
+          <span class="logo">WEB</span>
+          <span class="studio">STUDIO</span>
         </a>
         <ul class="nav-menu list">
-            <li><a href="./index.html" class="page currentoption">Studio</a></li>
-            <li><a href="./portfolio.html" class="page">Portfolio</a></li>
-            <li><a href="#Contacts" class="page">Contacts</a></li>
+          <li><a href="./index.html" class="page">Studio</a></li>
+          <li><a href="./portfolio.html" class="page current">Portfolio</a></li>
+          <li><a href="#Contacts" class="page">Contacts</a></li>
         </ul>
-    </nav>
-    <ul class="contacts-menu list">
-        <li><a href="mailto:info@devstudio.com" class="item">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111" class="item">+11 (000) 111-11-11</a></li>
-    </ul>
+      </nav>
+      <ul class="contacts-menu list">
+        <li>
+          <a href="mailto:info@devstudio.com" class="item"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="item">+11 (000) 111-11-11</a>
+        </li>
+      </ul>
     </header>
     <main>
-    <!--Section1-->
-    <section>
+      <!--Section1-->
+      <section>
         <div class="container">
+          <!--Buttons-->
+          <ul class="filters list">
+            <li>
+              <button type="button" class="button filter current">All</button>
+            </li>
+            <li>
+              <button type="button" class="button filter">Web Site</button>
+            </li>
+            <li>
+              <button type="button" class="button filter">App</button>
+            </li>
+            <li>
+              <button type="button" class="button filter">Design</button>
+            </li>
+            <li>
+              <button type="button" class="button filter">Marketing</button>
+            </li>
+          </ul>
 
-            <!--Buttons-->
-            <ul class="filters list">
-                <li>
-                    <button type="button" class="button filter current">All</button>
-                </li>
-                <li>
-                    <button type="button" class="button filter">Web Site</button>
-                </li>
-                <li>
-                    <button type="button" class="button filter">App</button>
-                </li>
-                <li>
-                    <button type="button" class="button filter">Design</button>
-                </li>
-                <li>
-                    <button type="button" class="button filter">Marketing</button>
-                </li>
-            </ul>
-
-            <!--Projects-->
-            <ul class="projects list">
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/bankapp.jpg" 
-                        alt="Banking App Interface Concept" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Banking App Interface Concept</h2>
-                    <p class="type">App</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/cashless.jpg" 
-                        alt="Cashless Payment" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Cashless Payment</h2>
-                    <p class="type">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/Meditation.jpg" 
-                        alt="Meditation App" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Meditation App</h2>
-                    <p class="type">App</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/taxiservice.jpg" 
-                        alt="Taxi Service" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Taxi Service</h2>
-                    <p class="type">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/screenillustrations.jpg" 
-                        alt="Screen Illustrations" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Screen Illustrations</h2>
-                    <p class="type">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/online.jpg" 
-                        alt="Online Courses" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Online Courses</h2>
-                    <p class="type">Marketing</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/instagramstories.jpg" 
-                        alt="Instagram Stories Concept" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Instagram Stories Concept</h2>
-                    <p class="type">Design</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/organicfood.jpg" 
-                        alt="Organic Food" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Organic Food</h2>
-                    <p class="type">Web Site</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="project">
-                    <img 
-                        src="./images/freshcoffee.jpg" 
-                        alt="Fresh Coffee" 
-                        width="370" 
-                        height="294"
-                    />
-                    <h2 class="name">Fresh Coffee</h2>
-                    <p class="type">Web Site</p>
-                    </a>
-                </li>
-            </ul>
+          <!--Projects-->
+          <ul class="project list">
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/bankapp.jpg"
+                  alt="Banking App Interface Concept"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Banking App Interface Concept</h2>
+                <p class="type">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/cashless.jpg"
+                  alt="Cashless Payment"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Cashless Payment</h2>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/Meditation.jpg"
+                  alt="Meditation App"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Meditation App</h2>
+                <p class="type">App</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/taxiservice.jpg"
+                  alt="Taxi Service"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Taxi Service</h2>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/screenillustrations.jpg"
+                  alt="Screen Illustrations"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Screen Illustrations</h2>
+                <p class="type">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/online.jpg"
+                  alt="Online Courses"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Online Courses</h2>
+                <p class="type">Marketing</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/instagramstories.jpg"
+                  alt="Instagram Stories Concept"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Instagram Stories Concept</h2>
+                <p class="type">Design</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/organicfood.jpg"
+                  alt="Organic Food"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Organic Food</h2>
+                <p class="type">Web Site</p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="project">
+                <img
+                  src="./images/freshcoffee.jpg"
+                  alt="Fresh Coffee"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="name">Fresh Coffee</h2>
+                <p class="type">Web Site</p>
+              </a>
+            </li>
+          </ul>
         </div>
-    </section>
-</main>
-<!--footer-->
-<footer class="page-footer bg-footer">
-    <div>
+      </section>
+    </main>
+    <!--footer-->
+    <footer class="page-footer bg-footer">
+      <div>
         <a href="./index.html" class="logo-link">
-            <span class="logo">WEB</span>
-            <span   span class="studio-footer">STUDIO</span>
+          <span class="logo">WEB</span>
+          <span span class="studio-footer">STUDIO</span>
         </a>
-        <p class="footer-description">>
-            Increase the flow of customers and<br />
-            sales for your business with digital <br />
-            marketing & growth solutions.
+        <p class="footer-description">
+          Increase the flow of customers and<br />
+          sales for your business with digital <br />
+          marketing & growth solutions.
         </p>
-    </div>
-</footer>
-    </body>
+      </div>
+    </footer>
+  </body>
 </html>
